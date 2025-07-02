@@ -13,7 +13,7 @@ class Person {
 	    this.age = age;
 	    this.height = height;
 	    this.weight = weight;
-	    Person.count++; 
+	    Person.count++;
 		this.lastName = lastName;
 	}
 
