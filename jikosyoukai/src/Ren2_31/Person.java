@@ -6,7 +6,7 @@ public class Person {
 	int age;
 	double height;
 	double weight;
-	int count = 0;
+	static int count = 0;
 
 	Person(String name,int age,double height,double weight) {
 		this.name = name;
