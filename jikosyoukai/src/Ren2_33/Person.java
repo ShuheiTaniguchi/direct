@@ -2,20 +2,21 @@ package Ren2_33;
 
 class Person {
 	
-	public static int count = 0;
-	public String firstName;
-	public int age;
-	double height;
-	double weight;
+	private static int count = 0;
+	private String firstName;
+	private int age;
+	private double height,weight;
 	private String lastName;
 
-	public Person(String firstName, int age, double height, double weight) {
+	public Person(String firstName,int age, double height, double weight, String lastName) {
 		this.firstName = firstName;
 	    this.age = age;
 	    this.height = height;
 	    this.weight = weight;
+	    Person.count++; 
+		this.lastName = lastName;
 	}
-	
+
 	public String fullName() {
 		return this.firstName + this.lastName;
 	}
@@ -29,7 +30,7 @@ class Person {
 		return this.weight / this.height / this.height;
 	}
 
-//	public static void printCount() {
-//		System.out.println("合計" + person.count + "人です");
-//	}
+	public static void printCount() {
+		System.out.println("合計" + Person.count + "人です");
+	}
 }
