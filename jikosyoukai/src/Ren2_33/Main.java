@@ -11,5 +11,6 @@ public class Main {
 		person2.print(); 
 		
 		Person.printCount();
+		
 	}
 }
