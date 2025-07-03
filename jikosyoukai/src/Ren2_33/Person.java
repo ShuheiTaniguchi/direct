@@ -1,6 +1,6 @@
 package Ren2_33;
 
-class Person {　
+class Person {
 	
 	private static int count = 0;
 	private String firstName;
