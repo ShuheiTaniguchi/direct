@@ -8,7 +8,6 @@ public class Main {
 		person1.print(); 
 		Person  person2 = new Person("山田","花子", 22, 1.5, 40);
 		person2.print(); 
-		
 		Person.printCount();
 		
 	}
