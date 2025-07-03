@@ -14,7 +14,7 @@ class Person {
 	    this.height = height;
 	    this.weight = weight;
 	    Person.count++;
-		this.lastName = lastName;
+		this.lastName;
 	}
 
 	public String fullName() {
