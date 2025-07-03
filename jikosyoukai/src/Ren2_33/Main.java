@@ -1,6 +1,6 @@
 package Ren2_33;
 
-public class Main {
+public class Main {　
   
 	public static void main(String[] args) {
 		
