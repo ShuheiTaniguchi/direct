@@ -26,7 +26,7 @@ public class Person {
 			System.out.println("名前は" + this.name + "です");
 			System.out.println("年は" + this.age + "歳です");
 			System.out.println("BMIは" + (int)this.bmi() + "です");
-			System.out.println(count + "人です");
+			System.out.println(count + "人です"); 
 		}
 		
 	}
