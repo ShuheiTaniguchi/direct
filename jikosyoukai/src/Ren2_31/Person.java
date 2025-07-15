@@ -28,6 +28,5 @@ public class Person {
 			System.out.println("BMIは" + (int)this.bmi() + "です");
 			System.out.println(count + "人です");
 		}
-		
 	}
 }
